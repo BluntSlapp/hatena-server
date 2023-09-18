@@ -10,7 +10,7 @@
 #
 import sys, os, numpy as np
 try:
-	import Image
+	from PIL import Image
 	hasPIL = True
 except ImportError:
 	hasPIL = False
